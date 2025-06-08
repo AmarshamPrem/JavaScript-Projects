@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Kalam", 'poppins', 'sans-serif';
+}
+
+body {
+    background-color: rgb(232, 238, 238);
+    min-width: 600px;
+    min-height: 400px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    scroll: auto;
+}
+
+.input-container {
+    width: 100%;
+    max-width: 500px;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 3.5rem;
+    background-color: #3da33d;
+    width: 100%;
+    text-align: center;
+    color: #FFF;
+    font-weight: 800px;
+}
+
+.input-container input {
+    margin-block: 5px;
+    padding: 12px 20px;
+    border: 0;
+    outline: 0;
+    border-radius: 4px;
+    font-size: 1.3rem;
+}
+
+.input-container input[type="text"] {
+    width: 70%;
+}
+
+.input-container input[type="button"] {
+    background-color: #3da33d;
+    color: #FFF;
+    font-weight: 800;
+    margin-left: 8px;
+    cursor: pointer;
+    padding: 12px 30px;
+}
+
+.input-container input[type="button"]:hover {
+    background-color: #60b160;
+}
+
+ul {
+    width: 100%;
+    max-width: 450px;
+    list-style-type: none;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+}
+
+ul li {
+    font-size: 20px;
+    border: .125px solid #a19f9f;
+    margin-block-end: 12px;
+    padding: 6px 12px;
+    background-color: #FFF;
+    display: flex;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.5s;
+}
+
+ul li:hover {
+    background-color: #CBCACA;
+}
+
+ul li p {
+    flex-grow: 1;
+}
+
+.Btn {
+    border: 0;
+    outline: 0;
+    height: ;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    background: none;
+    padding: 12px;
+}
+
+.deleteBtn {
+    color: #f00;
+}
+
+.editBtn {
+    color: #008000;
+}
+
+footer {
+    text-align: center;
+    font-size: 18px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 10px 20px;
+    color:#FFF;
+    background-color: #3da33d;
+    font-weight: 700;
+}
+
+abbr {
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 900;
+}
+
+abbr:hover {
+    text-decoration: underline;
+    color: aliceblue
+}

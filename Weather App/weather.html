@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Amar Sham">
+    <link rel="stylesheet" href="weather.css">
+    <script src="weather.js" defer></script>
+    <!-- <script src="https://smtpjs.com/v3/smtp.js"></script> -->
+    <title>WeatherMe | Amar Sham</title>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="header">
+            <div class="search-box">
+                <input autofocus class="input-box" value="mithi" placeholder="Enter Location" type="text">
+                <button id="search"><img src="search.svg" width="36" alt="Search"></button>
+            </div> 
+        </div>
+
+        <div class="location-not-found">
+            <h1>Could not find the location!!</h1>
+            <img src="404.svg" width="250" alt="404 Error">
+        </div>
+        
+        <div class="weather-body">
+            <img src="clouds.svg" alt="weather image" width="250" class="weather-img">
+            <div class="weather-box">
+                <p class="temperature">0<sup>°</sup> C</p>
+                <p class="discription">Clear Weather</p>
+            </div>
+            <div class="weather-details">
+                <div class="humidity">
+                    <img src="drop.svg" width="30" alt="Drop">
+                    <div class="text">
+                        <span id='humidity'>45%</span>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+
+                <div class="wind">
+                    <img src="wind.svg" width="36" alt="Drop">
+                    <div class="text">
+                        <span id='wind-speed'>12Km/H</span>
+                        <p>Wind Speed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,87 @@
+/* RESET  */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+p abbr {
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+/* STYLES */
+
+body {
+    background-color: rgb(190, 190, 190);
+}
+
+header h1 {
+    text-align: center;
+    font-size: 4rem;
+    background-color: rgb(20, 40, 220);
+    color: #fff;;
+    padding: 0.5rem;
+}
+
+main p {
+    text-align: center;
+    font-size: 2rem;
+    margin: 20px 0;
+    color: rgb(25, 160, 215);
+}
+
+main > button {
+    color: #fff;
+    height: 35px;
+    width: 100px;
+    border-radius: 20px 5px;
+    margin: 20px 633px;
+    font-size: 1.5rem;
+    background-color: black;
+    opacity: 0.75;
+}
+
+main > button:hover {
+    opacity: 0.5;
+}
+
+main > button:active {
+    color: red;
+}
+
+#playGround {
+    width: 360px;
+    height: 360px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid #222;
+    border-radius: 18px;
+    box-shadow: 0px 0px 10px black;
+}
+
+.slot {
+    width: 100Px;
+    height: 100px;
+    margin: 9px;
+    border-radius: 14%;
+    background-color: #555; 
+    color: #FFF;
+    font-size: 4rem;
+    box-shadow: 0px 0px 10px #FFF;
+}
+
+.slot:disabled {
+    background-color: #333;
+}
+
+footer {
+    font-size: larger;
+    padding: 10px 25px;
+    color: #ddd;
+    background-color: rgb(20, 40, 220);
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Amar Sham">
+    <link rel="stylesheet" href="look.css">
+    <script src="https://kit.fontawesome.com/2e7862d98d.js" crossorigin="anonymous"></script>
+    <title>Form Validation | Amar Sham</title>
+</head>
+<body>
+
+    <div class="container">
+        <div class="box">
+            
+            <header class="signup-header">
+                <h1>SignUp</h1>
+            </header>
+            
+            <main class="signup-body">
+                <form action="#">
+                    <p>
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" placeholder="Amar Sham">
+                        <i class="fa-solid"></i>
+                        <span id="nameError"></span>
+                    </p>
+                    <p>
+                        <label for="email">Email</label>
+                        <input type="email" id="email" placeholder="example@gmail.com">
+                        <i class="fa-solid"></i>
+                        <span id="emailError"></span>
+                    </p>
+                    <p>
+                        <label for="password">Password</label>
+                        <input type="text" id="password" placeholder="At least 8 Charactors">
+                        <i class="fa-solid"></i>
+                        <span id="passError"></span>
+                    </p>
+                    <p>
+                        <input type="submit" id="submitBtn" value="Submit Password">
+                    </p>
+                </form>
+            </main>
+            
+            <footer class="signup-footer">
+                <P>
+                    Already have an account? <a href="">LogIn</a>
+                </P>
+            </footer>
+        </div>
+    </div>
+
+
+
+    <script src="validation.js"></script>
+</body>
+</html>

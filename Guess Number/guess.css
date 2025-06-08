@@ -1,0 +1,139 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(232, 238, 238);
+    min-width: 600px;
+    min-height: 400px;
+}
+
+header h1 {
+    font-size: 3.5rem;
+    background-color: rgb(145,4,69);
+    width: 100%;
+    text-align: center;
+    color: #FFF;
+    font-weight: 800px;
+}
+
+main {
+    height: 81vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 400px;
+    height: 500px;
+    padding: 30px;
+    outline: 3px solid rgb(145,4,69);
+    box-shadow: 0px 0px 20px rgb(145,4,69);    
+    border-radius: 20px;
+}
+
+.container h3 {
+    font-size: 2.3rem;
+    text-align: center;
+    border-block: 2px solid #000;
+}
+
+.btns {
+    font-size: 2rem;
+    margin: 40px;
+    text-align: center;
+}
+
+.btns input[type="button"] {
+    color: #FFF;
+    width: 200px;
+    background-color: rgb(145,4,69);
+    font-weight: 900;
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+    padding: 10px 30px;
+    border: 0;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+#number {
+    width: 78%;
+    padding: 5px 10px 5px 25px;
+    margin: 30px 0 10px 0;
+    font-size: 1.6rem;
+    border-radius: 20px 0 0 20px;
+}
+
+#arrowButton {
+    width: 20%;
+    background-color: #FFF;
+    padding: 5px;
+    letter-spacing: -4px;
+    margin: 30px 0 10px 0;
+    font-size: 1.6rem;
+    border-radius: 0 20px 20px 0;
+}
+
+#arrowButton:disabled {
+    background-color: transparent;
+}
+
+#inputDiv + section {
+    font-size: 2rem;
+    margin: 40px;
+    text-align: center;
+}
+
+#inputDiv + section button {
+    color: #FFF;
+    width: 200px;
+    background-color: rgb(145,4,69);
+    font-weight: 900;
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+    padding: 10px 30px;
+    border: 0;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.msgs {
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.msg-container {
+    margin-block: 20px;
+    font-size: 1.4rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer {
+    text-align: center;
+    font-size: 18px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 10px 20px;
+    color:#FFF;
+    background-color: rgb(145,4,69);
+    font-weight: 700;
+}
+
+abbr {
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 900;
+}
+
+abbr:hover {
+    text-decoration: underline;
+    color: aliceblue
+}

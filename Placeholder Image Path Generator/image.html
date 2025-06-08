@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Amar Sham">
+    <link rel="stylesheet" href="generator.css">
+    <script src="generator.js" defer></script>
+    <title>Image Path Generator | Amar Sham</title>
+</head>
+<body>
+
+    <main>
+        <div id="form">
+            <div>
+                <label for="height">Image Height (px): </label>
+                <input type="number" min="1" max="1000" id="height" placeholder="Height">
+            </div>
+            <div>
+                <label for="width">Image Width (px): </label>
+                <input type="number" min="1" max="1000" id="width" placeholder="Width">
+            </div>
+            <div>
+                <label for="bg-color">Image Background Color : </label>
+                <input type="color" value="#908484" id="bg-color">
+            </div>
+            <div>
+                <label for="txt-color">Image Text Color : </label>
+                <input type="color" value="#FFFFFF" id="txt-color">
+            </div>
+            <div>
+                <label for="text">Text : </label>
+                <input type="text" id="text" placeholder="Text">
+            </div>
+            <div>
+                <label></label>
+                <input type="button" id="submit" value="Get">
+            </div>
+        </div>
+        <div id="imgDiv">
+            <h2>Image: </h2>
+            <img id="image">
+        </div>
+    </main>
+
+</body>
+</html>
